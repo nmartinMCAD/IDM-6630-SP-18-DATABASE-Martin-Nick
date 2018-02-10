@@ -16,8 +16,10 @@ services:
             MYSQL_PASSWORD: idm6630
 
     php:
-        image: php:7.1.8-apache
         container_name: MARTIN-Nick-PHP
+        build:
+          context: .
+          dockerfile: Dockerfile-php
         ports:
             - "8080:80"
         volumes:
