@@ -1,0 +1,32 @@
+html {
+  margin-bottom: 0;
+}
+main {
+  width: 700px;
+  margin: auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+header {
+  background-color: $green;
+  padding: 1rem;
+  color: $white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(34,34,34,1);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(34,34,34,1);
+  box-shadow: 0px 0px 19px 0px rgba(34,34,34,1);
+}
+
+div {
+  margin-top: 6rem;
+}
+
+footer {
+  height: 200px;
+  background-color: $oil;
+  position: relative;
+}
