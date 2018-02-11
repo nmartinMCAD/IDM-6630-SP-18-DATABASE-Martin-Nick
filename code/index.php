@@ -40,7 +40,7 @@
       }
 
 
-      $query = 'SELECT * FROM albums';
+      $query = 'SELECT * FROM albums ORDER BY id DESC';
 
       foreach ($conn->query($query) as $album) {
         echo "<div>";
